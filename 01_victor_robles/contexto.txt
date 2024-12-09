@@ -1,0 +1,24 @@
+TypeScript, es 90% lo mismo que JavaScript
+
+Para instalarlo, se debe tener instalado nodejs.
+
+1- vamos a la consola y ejecutamos:
+
+    npm install -g typescript
+
+    (asi se instala de manera global)
+
+    tsc -v      .. con este comando se verifica si esta instalado
+
+2- estando en el proyecto, abrimos consola y ejecutamos:
+
+    tsc -init
+
+    (para crear nuestro fichero de configuración de typescript)
+
+    Aqui configuramos "target": "ES5" -> especifica que el código TypeScript debe ser transpilado a una versión de JavaScript compatible con ECMAScript 5 (ES5), ya que es bastante compatible con cualquier navegador
+    Tambien "strict": true -> lo llevamos a false
+
+3- creamos el archivo main.ts, lo editamos, luego para transpilarlo, ejecutamos en consola:
+
+    tsc main.ts -w      ... con este comando se queda typescript transpilando el archivo constantemente.
