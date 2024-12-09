@@ -1,5 +1,5 @@
 
-# Prácticas de TypeScrip
+# Prácticas de TypeScript
 
 Canales fuentes: 
 - Victor Robles WEB
@@ -9,7 +9,7 @@ Canales fuentes:
 ## Clonación de Repositorio
 
 ```bash
-git clone https://github.com/esierr01/practicas_javascript.git
+git clone https://github.com/esierr01/practicas_typescript.git
 ```
 
 ## Instrucciones
